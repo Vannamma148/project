@@ -1,0 +1,74 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+ */
+ @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Lilita+One&family=Tilt+Neon&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight:300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    background-color: #e4e4e4;
+    
+    margin: 10px ;
+    padding: 10px ;
+}
+h1, h2,h3, h4, h5, h6, p{
+    text-align: center;
+    margin: 20px 0;
+   font-weight: 200;
+    
+}
+h1, h2{
+    font-weight: 400;
+}
+p{
+    margin: 20px 0;
+}
+.boxes{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    gap: 40px;
+    margin: 10vh;
+}
+.boxes div{
+    display: flex;                /* Enable flexbox */
+    justify-content: center;      /* Center text horizontally */
+    align-items: center;          /* Center text vertically */
+    height: 100px;
+    width: 500px;
+    color: white;
+    text-align: center;
+   border: 1px solid #2b2b2b;
+   
+}
+
+.b1{
+ background-color: rgb(255, 0, 0);
+}
+.b2{
+    background-color: rgba(255, 187, 0, 0.801);
+}
+.b3{
+    background-color: hsl(240, 50%, 50%);
+}
+.b4{
+    background-color: hsla(172, 94%, 47%, 0.7);
+}
+.b5{
+    background-color: orangered;
+}
+
+/* Formatting tag css */
+.alltags * {
+    display: flex;
+    justify-content: center;
+}
